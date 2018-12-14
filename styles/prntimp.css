@@ -1,0 +1,30 @@
+#banner {
+	display:none;
+}
+#bckgrndimg {
+	display:none;
+}
+#stndcol1{
+	display:none;
+}
+#breadcrumb{display:none}
+#nav4{display:none}
+#footer {
+	display:none;
+}
+/*#############################################################
+global lex styles */
+#contentcol.globallex {font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px; padding-top:5em; margin-left:0; line-height:130%;}
+.globallex #contentcol h1 {color:#333366; background-color:white; text-align:center; font-size:1.4em;}
+.globallex #contentcol h2 {color:#333366; background-color:white; text-align:center; font-size:1.2em;}
+.globallex #contentcol h3 {font-weight:bold;color:#333366; background-color:white; text-align:center; font-size:1em;}
+#globalexleft {display:none;}
+#glbstndcentre {
+	z-index:-2;
+	background-image: url(../../images/globalexbanner.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.globallex #breadcrumb {text-align:center; z-index:10; }
+.tablecontents p {margin-top:8pt; margin-bottom:0;}

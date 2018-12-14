@@ -1,0 +1,229 @@
+/*#############################################################
+page settings*/
+body {font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 70%;}
+/*style for table on home page, fix for IE 5 bug*/
+
+#main {font-size: 85%;}
+body {margin:0;	padding:0;}
+#banner {margin:0 .5em 0 .5em}
+#nav2 {
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 14px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
+}
+#nav2 a {
+	display: inline-block;
+}
+#bckgrndimg{float:right;}
+#col1 {
+	background-color: #F2F2E6;
+	background-image: url(../images/leftcol_leftborder.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+}
+#nav3 {padding:.5em .5em .5em 1em;}
+#nav3 h2{font-size:1.3em; color:#666600; margin:.5em;}
+#nav3 h2 a {color:#660; text-decoration:none;}
+
+/*working paper links on home page */
+
+.greentext {font-weight:bold;color:#993;}
+#photo {background-color: #e9e9d1; padding-left:1px;}
+
+#footer {font-size:100%;}
+#address {padding:2em .7em .7em .7em;}
+#toprow {
+	background: #CCCC99;
+}
+/*#############################################################
+styles for standard page */
+
+#stndcol1 {position:absolute; left:0;; width:20%; margin:2em 2em 20em 1em; background-color: #F2F2E6;
+	background-image: url(../images/leftcol_leftborder.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+	border-right:1px solid #993;}
+	
+#coltop{background: url(../images/stndpage_leftcol_topmargin.gif) repeat-x top; height:3px;}
+
+#stndcentre {background-image: url(../images/stnd_topofpage.gif);
+	background-repeat: repeat-x; z-index:-2}
+	/*
+#contentcol {margin:0 3em 2em 25%; line-height:1.5em;z-index:5;}
+*/
+#breadcrumb {padding:30px 0 40px 0; z-index:10; }
+#breadcrumb a{color:black;}
+#headingbox {background-color:#993; padding:2em 0 1em 0;}
+
+
+/*#############################################################
+global lex styles */
+
+#contentcol.GlobaLex {font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px; padding-top:6em; margin-left:1em; }
+.GlobaLexindex th {color:#333366; background-color:white; text-align:center; font-size:1.4em;}
+.GlobaLexindex td {font-size:0.95em;}
+
+.catBorder {
+	border:1px solid #333366;
+	margin-right:50px;
+}
+
+a.cat {
+	color:#333366;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.4em;
+	text-align:center;
+	display:block;
+	text-decoration:none
+}
+
+#globalexleft {display:none;float:left; width:20%; margin:8em 2em 20em 1em; background-color: #fff;}
+#glbstndcentre {
+	z-index:-2;
+	background-image: url(../images/globalexbanner.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin:.5em 0 0 5em;
+}
+.GlobaLex #breadcrumb {text-align:center; z-index:10; }
+.tablecontents p {margin-top:0; margin-bottom:0;}
+main {
+	font-family:Georgia;
+	  font-size:10.0pt;
+	  line-height: 14pt;
+	margin:.5em 2em 0 5em;
+}
+
+form.google_search {
+	float:right;
+	margin-right:1em;
+}
+
+.award {
+	text-align:center;
+}
+.award a img{
+	border:none;
+}
+
+ul.sub {
+	display: inline;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul.sub li {
+	display: block;
+	padding: 0;
+	margin: 0 0 0 2em;
+}
+
+ul.sub li:first-child {
+	display: inline;
+	margin: 0;
+}
+
+/*###################### NEW STYLES ###############*/
+h1 {
+margin: auto;
+		width: 100%;
+		text-align: center;
+		font-weight:bold;
+		font-size: 12pt;
+		}
+		
+h2 {
+		/* font-size: 1.2em; */
+		font-size: 10pt;
+		font-weight:bold;
+		margin-top: 30px;
+		margin-bottom: 0px;
+		}
+		
+h3 {
+		/* font-size: 1.1em; */
+		font-size: 10pt;
+		font-weight:bold;
+		margin-top: 20px;
+		margin-bottom: 0px;
+
+		}
+
+h4 {
+		/* font-size: 1.1em; */
+		font-size: 10pt;
+		font-weight:bold;
+		margin-top: 10px;
+		margin-bottom: 0px;
+
+		}
+		
+h5 {
+		/* font-size: 1.0em; */
+		font-size: 10pt;
+		font-weight:bold;
+		margin-top: 10px;
+		margin-bottom: 0px;
+
+		}
+		
+#articleAuthor {
+		margin: 20px 0px;
+		}
+		
+#articleAuthor p {
+		margin: auto;
+		width: 100%;
+		text-align: center;
+		margin: 0px 0px;
+		}
+	
+#publishedBlock {
+		margin-bottom: 40px;
+}
+
+#publishedBlock p {
+		font-family:Georgia;
+		margin: auto;
+		width: 100%;
+		text-align: center;
+		font-size: .9em;
+		margin-bottom: 0px;
+	}
+
+#toc ul {
+padding-left: 0px;
+list-style: none;
+	}
+	
+#toc ul ul {
+padding-left: 20px;
+list-style: none;
+	}
+	
+#toc a:link {
+text-decoration: none;
+}
+
+.WordSection1 p {
+	text-align: justify;
+	margin-top: 0px;
+	}
+	
+/* for centering images */
+p.c1 {text-align: center}
+	
+p.endnote {
+	margin-bottom: 0px;
+	}
+	
+sup {
+	vertical-align: baseline;
+	}
